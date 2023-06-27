@@ -1,0 +1,104 @@
+/* styles.css */
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente el botón de enviar */
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .whatsapp-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente el botón de WhatsApp */
+    margin-top: 10px; /* Añade un pequeño espacio entre el botón de enviar y el de WhatsApp */
+  }
+  
+  .whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  button:hover,
+  .whatsapp-button:hover {
+    opacity: 0.8;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #999;
+  }
+  
+  :-moz-placeholder {
+    color: #999;
+  }
+  
+  ::-moz-placeholder {
+    color: #999;
+  }
+  
+  :-ms-input-placeholder {
+    color: #999;
+  }
+  
+  
